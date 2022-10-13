@@ -20,6 +20,15 @@ export function middleware(req: NextRequest) {
         }
 
     }
+    
+    const url = req.nextUrl.clone()   
+
+    if (url.pathname === '/api/seed') {
+        url.pathname = '/'
+        return NextResponse.redirect(url)   
+    } 
+
+    
 
     return NextResponse.next();
 }
@@ -28,5 +37,5 @@ export function middleware(req: NextRequest) {
 // See "Matching Paths" below to learn more solo a este path se afecta el middleware
 export const config = {
 //   matcher: '/about/:path*',
-    matcher: ['/api/entries/:path*',]
+    matcher: ['/api/entries/:path*','/api/seed']
 }

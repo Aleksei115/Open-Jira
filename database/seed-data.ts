@@ -13,19 +13,19 @@ interface seedEntry {
 export const seedData: SeedData = {
     entries: [
         {
-            description: "pending lorem ipsum jflajfla",
+            description: "I need to make my CV",
             status:'pending',
             createdAt: Date.now(),
         },
         {
-            description: "in-progress lorem ipsum 5878",
+            description: "NextJS course",
             status:'in-progress',
-            createdAt: Date.now()-1000000,
+            createdAt: Date.now(),
         },
         {
-            description: "finished lorem ipsum 1323",
+            description: "Homework of my school",
             status:'finished',
-            createdAt: Date.now()-1000,
+            createdAt: Date.now(),
         }
     ]
 }

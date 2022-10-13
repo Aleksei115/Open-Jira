@@ -1,28 +1,38 @@
 # Next.js OpenJira App
-Para utilizar la aplicación localmente, se necesita inicializar la base de datos.
 
-Se inicializa la base de datos con el comando 
+You can deploy the app on your computer, just follow these steps:
+
+## Download the repositorie and use the command:
+
+```
+yarn
+```
+
+## Then you need to deploy the database with the command:
 
 ```
 docker-compose up -d
 ```
 
-* El -d significa __detached__
-  
-* MongoDB URL local:
+## To connect to the database the url is:
 
 ```
 mongodb://localhost:27017/entriesdb
 ```
 
-## Configurar las variables de entorno
 
-Renombrar el archivo __.env.template__ a __.env__
+## Setting environment variables
+
+Rename the file __.env.template__  to  __.env__
 
 
-## Llenar la base de datos con información de pruebas
+## Filling out the database with test data
 
 ```
 http://localhost:3000/api/seed
 
 ```
+
+## Views of the project:
+
+![alt text](https://github.com//Aleksei115/Open-Jira/blob/main/img_prueba/Capture1.PNG?raw=true)
