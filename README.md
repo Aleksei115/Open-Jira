@@ -35,4 +35,8 @@ http://localhost:3000/api/seed
 
 ## Views of the project:
 
-![alt text](https://github.com//Aleksei115/Open-Jira/blob/main/img_prueba/Capture1.PNG?raw=true)
+![Primera vista](https://github.com//Aleksei115/Open-Jira/blob/main/img_prueba/Capture1.PNG?raw=true)
+
+![Primera vista](https://github.com//Aleksei115/Open-Jira/blob/main/img_prueba/Capture2.PNG?raw=true)
+
+![Primera vista](https://github.com//Aleksei115/Open-Jira/blob/main/img_prueba/Capture3.PNG?raw=true)
